@@ -15,7 +15,7 @@
     <p><strong>Year-to-Date Salary Paid:</strong> $<span id="salaryPaid">0</span></p>
     <p><strong>Year-to-Date Salary Taxes (15%):</strong> $<span id="salaryTaxes">0</span></p>
   </div>
-  <nav>
+
  <nav style="margin-bottom: 24px;">
   <a href="add_dealership.html">Add Dealership</a> |
   <a href="fixed_expenses.html">Fixed Expenses</a> |
