@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Dealership</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Add Dealership</h1>
+  <form id="dealershipForm">
+    <label>Name: <input type="text" id="dealerName" required></label><br>
+    <label>Monthly Charge: <input type="number" id="monthlyCharge" required min="0"></label><br>
+    <label>Trial Period (months): 
+      <select id="trialPeriod">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="6">6</option>
+        <option value="12">12</option>
+      </select>
+    </label><br>
+    <label>Setup Fee: <input type="number" id="setupFee" required min="0"></label><br>
+    <button type="submit">Add Dealership</button>
+  </form>
+  <nav>
+    <a href="index.html">Dashboard</a>
+  </nav>
+</body>
+</html>
