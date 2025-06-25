@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DriveScope Payroll - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>DriveScope Payroll Dashboard</h1>
+  <div id="dashboard">
+    <p><strong>Year-to-Date Revenue:</strong> $<span id="revenue">0</span></p>
+    <p><strong>Year-to-Date Expenses:</strong> $<span id="expenses">0</span></p>
+    <p><strong>Year-to-Date Taxes (Corp 21%):</strong> $<span id="corpTaxes">0</span></p>
+    <p><strong>Year-to-Date Salary Paid:</strong> $<span id="salaryPaid">0</span></p>
+    <p><strong>Year-to-Date Salary Taxes (15%):</strong> $<span id="salaryTaxes">0</span></p>
+  </div>
+  <nav>
+    <a href="add_dealership.html">Add Dealership</a> |
+    <a href="fixed_expenses.html">Fixed Expenses</a> |
+    <a href="one_time_expense.html">One-Time Expenses</a>
+  </nav>
+</body>
+</html>
